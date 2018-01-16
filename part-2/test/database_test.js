@@ -60,7 +60,7 @@ describe('bookings', function() {
   it('should output all booked rooms', function() {
     return bookings()
     .then(result => {
-      expect(result).to.have.lengthOf(35)
+      expect(result).to.have.lengthOf(25)
     })
   })
   it('should output bookings after current date', function() {

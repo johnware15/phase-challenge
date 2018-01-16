@@ -9,7 +9,7 @@ app.get('/api/shout/:word', (req, res) => {
   res.send(`${req.params.word.toUpperCase()}`)
 })
 
-app.use(bodyParser())
+app.use(bodyParser.json())
 
 app.post('/api/array/merge', (req, res) => {
   let arrayA = req.body.a
