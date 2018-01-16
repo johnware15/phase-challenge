@@ -92,7 +92,7 @@ response content type: application/json
 - [x] __10:__ All dependencies are specified in a `package.json` file
 - [x] __10:__ Web server can be started with `npm start` command
 - [x] __20:__ GET requests to the `/api/shout/:word` route responds with  content type `text/plain`, as described in the example above
-- [ ] __80:__ POST requests to the `/api/array/merge` merge the two arrays provided in the request body and responds with the result. An invalid input should return a 400 response.
+- [x] __80:__ POST requests to the `/api/array/merge` merge the two arrays provided in the request body and responds with the result. An invalid input should return a 400 response.
 
 ## Part 2: Command Line Hotel Management System
 
